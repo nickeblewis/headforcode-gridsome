@@ -2,7 +2,7 @@
   <section class="pt-5">
     <b-container>
       <div class="text-center">
-        <h2>Lastest News</h2>
+        <h2>Latest News</h2>
       </div>
 
       <div>
