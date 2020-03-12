@@ -3,8 +3,8 @@
       <div class="container">
         <div class="row">
           <div class="col">
-            <h4 class="font-weight-light">Did you know that you can easily create your own articles?</h4>
-            <p class="lead mb-0">
+            <h4 class="font-weight-light">HeadForCode aka NickLewis, a Developer from Hampshire, UK who has worked... in the industry since the mid-nineties. Mostly focussing on VueJS a brilliant front-end framework ideal for building all manner of applications...</h4>
+            <!-- <p class="lead mb-0">
               Checkout our
               <g-link
                 class="btn btn-lg btn-primary"
@@ -13,7 +13,7 @@
                 aria-disabled="true"
                 to="/pages/contribute"
               >Contribution Guide</g-link>
-            </p>
+            </p> -->
           </div>
           <!--end of col-->
         </div>
