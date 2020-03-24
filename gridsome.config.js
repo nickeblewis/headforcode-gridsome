@@ -23,7 +23,7 @@ var embedConfig = {
 
 module.exports = {
   siteName: 'HeadForCode',
-  siteUrl: 'https://gridsome-starter-articles.now.sh',
+  siteUrl: 'https://headforcode.com',
   permalinks: {
     trailingSlash:false
   },
