@@ -1,4 +1,5 @@
 const CompressionPlugin = require('compression-webpack-plugin');
+require('dotenv').config();
 
 var embedConfig = {
   'enabledProviders': ['Youtube', 'Vimeo', 'Gist', 'Codepen', 'JSFiddle', 'Giphy'], 
@@ -39,7 +40,22 @@ module.exports = {
     }
   },
   plugins: [
-    
+    {
+      use: 'gridsome-source-sanity',
+      options: {
+        projectId: process.env.PROJECT_ID,
+        dataset: process.env.DATASET,
+        // Token is only required if dataset is private
+        // or `overlayDrafts` is set to true
+        token: process.env.TOKEN,
+        overlayDrafts: false,
+        watchMode: false,
+
+        // If the Sanity GraphQL API was deployed using `--tag <name>`,
+        // use `graphqlTag` to specify the tag name. Defaults to `default`.
+        graphqlTag: 'default'
+      }
+    },
     {
       use: '@gridsome/source-filesystem',
       options: {

@@ -21,6 +21,7 @@
     "gridsome": "^0.7.12",
     "gridsome-plugin-remark-prismjs-all": "^0.2.3",
     "gridsome-plugin-robots-txt": "^1.0.2",
+    "gridsome-source-sanity": "^1.0.5",
     "gridsome-source-static-meta": "^1.0.1",
     "imagemin-webpack-plugin": "^2.4.2",
     "jquery": "^3.4.1",
