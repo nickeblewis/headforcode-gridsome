@@ -3,7 +3,7 @@
       <div class="container">
         <div class="row">
           <div class="col">
-            <h4 class="font-weight-light">HeadForCode aka NickLewis, a Developer from Hampshire, UK who has worked... in the industry since the mid-nineties. Mostly focussing on VueJS a brilliant front-end framework ideal for building all manner of applications...</h4>
+            <h4 class="font-weight-light">HeadForCode aims to bring you frequent articles on the technologies of interest, with an aim to help people and businesses solve a range of complex problems. We carry out both consultancy and online training for people of all abilities.</h4>
             <!-- <p class="lead mb-0">
               Checkout our
               <g-link

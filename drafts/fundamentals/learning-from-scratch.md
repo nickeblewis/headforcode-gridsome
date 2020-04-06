@@ -45,3 +45,5 @@ Let me share a definition taken from Mozilla, who along with Brendan Eich were t
 > JavaScript is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than just sit there and display static information for you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc. — you can bet that JavaScript is probably involved. It is the third layer of the layer cake of standard web technologies, two of which (HTML and CSS)...
 
 Traditionally JS was just a client based scripting language that would operate within your web browser, which is now only partly the case because courtesy of NodeJS, you can use JS to build server side applications too! So as we shall see, full-stack applications can be built entirely in JS!!
+
+ 

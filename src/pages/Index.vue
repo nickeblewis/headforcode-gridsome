@@ -9,7 +9,8 @@
 
     <SectionInfoBoxes></SectionInfoBoxes>
 
-    <SectionLatestNews></SectionLatestNews>
+    <!-- I will resinstate the news section when I have some news -->
+    <!-- <SectionLatestNews></SectionLatestNews> -->
 
     <SectionOpenSource></SectionOpenSource>
        

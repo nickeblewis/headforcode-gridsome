@@ -10,13 +10,13 @@
               width="256"
             />
             </div>
-            <h3 class="display-4 text-center">Th!nk different</h3>
+            <h3 class="display-4 text-center">Learn something new today...</h3>
             <p class="lead">
 
 
               Sometimes you need a different perspective to achieve your goal. 
               <br>
-              With our articles, we want to help you to see your challenges from a different perspective and to solve them faster.
+              With our articles, we want to help you to see your challenges from a different perspective and to solve them faster. 
 
             <p class="text-center">
               <g-link to="/articles" class="btn btn-lg btn-primary">Browse all articles</g-link>
