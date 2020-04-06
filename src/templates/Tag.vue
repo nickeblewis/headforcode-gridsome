@@ -67,7 +67,7 @@ query ($id: ID!, $page:Int) {
       edges {
         node {
           __typename
-          ... on News {
+          ... on Blog {
             id,
             title, 
             path,

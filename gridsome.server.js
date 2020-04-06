@@ -25,7 +25,7 @@ module.exports = function (api) {
           return obj.excerpt.replace(/^(.{200}[^\s]*).*/, "$1" + longText);
         }
       },
-      News: {
+      Blog: {
         excerpt(obj) {
           var longText = (obj.excerpt.length > 200) ? '...' : '';
           return obj.excerpt.replace(/^(.{200}[^\s]*).*/, "$1" + longText);
@@ -54,7 +54,7 @@ module.exports = function (api) {
       };
     }
 
-    if (options.internal.typeName === 'News') {
+    if (options.internal.typeName === 'Blog') {
       options.recordType = options.internal.typeName;
       options.tags = (typeof options.tags === 'string') ? options.tags.split(',').map(string => string.trim()) : options.tags;
       options.slug = slugify(options.title, slugReplacement);
@@ -159,9 +159,9 @@ module.exports = function (api) {
         return _.pick(record, ['title', 'path', 'excerpt', 'content', 'tags', 'recordType']);
       });
 
-      const collectionNews = context._app.store.getCollection('News')._collection;
+      const collectionBlog = context._app.store.getCollection('Blog')._collection;
 
-      const news = collectionNews.data.map(record => {
+      const blog = collectionBlog.data.map(record => {
         return _.pick(record, ['title', 'path', 'excerpt', 'content', 'tags', 'recordType']);
       });
 
@@ -170,7 +170,7 @@ module.exports = function (api) {
         name: 'search.json'
       };
 
-      const records = _.merge(articles, news);
+      const records = _.merge(articles, blog);
 
       const outputPath = path.resolve(process.cwd(), output.dir);
       const outputPathExists = fs.existsSync(outputPath);

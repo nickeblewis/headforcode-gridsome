@@ -17,7 +17,7 @@
 
 <page-query>
   query ($id: ID!) {
-    entry : news(id: $id) {
+    entry : blog(id: $id) {
       title
       content,
       excerpt,

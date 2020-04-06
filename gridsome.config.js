@@ -78,8 +78,8 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        typeName: 'News',
-        baseDir: './content/news',
+        typeName: 'Blog',
+        baseDir: './content/blog',
         path: '*.md',
         refs: {
           tags: {
@@ -141,7 +141,7 @@ module.exports = {
             changefreq: 'weekly',
             priority: 0.5
           },
-          '/news/*': {
+          '/blog/*': {
             changefreq: 'weekly',
             priority: 0.5
           }
@@ -188,9 +188,9 @@ module.exports = {
         component: './src/templates/ResourceTagFilter.vue'
       }
     ],
-    News: [{
-      path: '/news/:title',
-      component: './src/templates/News.vue'
+    Blog: [{
+      path: '/blog/:title',
+      component: './src/templates/Blog.vue'
     }],
     CustomPage: [{
       path:'/pages/:title',

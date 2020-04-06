@@ -2,7 +2,7 @@
   <section class="pt-5">
     <b-container>
       <div class="text-center">
-        <h2>Latest News</h2>
+        <h2>Latest Blog updates</h2>
       </div>
 
       <div>
@@ -30,7 +30,7 @@ export default {
 
 <static-query>
   query {
-    records: allNews(limit:3, sortBy:"createdAt") {
+    records: allBlog(limit:3, sortBy:"createdAt") {
       edges {
         node {
           title, 

@@ -16,7 +16,7 @@
               <g-link to="/articles" class="nav-link" exact>Articles</g-link>
               <!--TODO:Re-instate sometime -->
               <!-- <g-link to="/resources" class="nav-link" exact>Resources</g-link> -->
-              <!-- <g-link to="/news" class="nav-link" exact>News</g-link> -->
+              <g-link to="/blog" class="nav-link" exact>Blog</g-link>
               <!-- <g-link to="/pages/contribute" class="nav-link" exact>Contribute</g-link> -->
             </b-navbar-nav>
             <a class="closebtnNavigation" v-on:click="hideNavigation">&times;</a>

@@ -15,7 +15,7 @@
       </b-container>
 
       <Pagination
-      baseUrl="/news"
+      baseUrl="/blog"
       :currentPage="$page.records.pageInfo.currentPage"
       :totalPages="$page.records.pageInfo.totalPages"
       :maxVisibleButtons="5"
@@ -38,7 +38,7 @@ export default {
   },
   metaInfo() {
     return {
-      title: `Browse all news`
+      title: `Browse all blogs`
     }
   }
 };
@@ -47,7 +47,7 @@ export default {
 <page-query>
   query ($page: Int) {
     
-    records: allNews(perPage: 9, page: $page) @paginate {
+    records: allBlog(perPage: 9, page: $page) @paginate {
       totalCount
       pageInfo {
         totalPages
