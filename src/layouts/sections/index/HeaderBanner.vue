@@ -8,8 +8,8 @@
     <b-container>
       <b-row class="justify-content-center text-center">
         <b-col md="10" lg="8" class="pt-3 pb-3">
-          <p class="display-4 mb-0">Nick Lewis</p>
-          <p class="lead">Building Awesome Web, Mobile and Desktop Apps for all businesses</p>
+          <p class="display-4 mb-0">HeadForCode</p>
+          <p class="lead">Let's keep learning together</p>
         </b-col>
 
         

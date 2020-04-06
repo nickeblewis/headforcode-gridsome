@@ -3,7 +3,7 @@
     <b-container>
       <div class="text-center">
         <h2>Latest Articles</h2>
-        <p class="lead">Tuck into some great tech articles today</p>
+        <p class="lead">Tuck into some great coding articles every day</p>
       </div>
 
       <div>

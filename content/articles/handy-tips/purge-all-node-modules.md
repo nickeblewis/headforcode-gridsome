@@ -1,7 +1,7 @@
 ---
 title: Purge all node_modules folders
-tags: nodejs,bash,scripts,handy,tips,node_modules,npm
-excerpt: A great trick I learnt yesterday was how to free up 16GB on my hard drive with just one single line bash command!
+tags: nodejs,bash,scripts,handy,tips,node_modules,npm,javascript,command-line
+excerpt: A great trick I learnt yesterday was how to free up 16GB on my hard drive with just one command line input!
 createdAt: 2020-03-31 09:12:00
 ---
 
