@@ -2,7 +2,7 @@
 title: Coming up on HeadForCode
 tags: updates
 excerpt: Some of the new things coming up on H4C over the coming weeks and months
-createdAt: 2020-04-07 21:00:00
+createdAt: 2020-06-06 11:00:00
 ---
 
 ## Our plans for the weeks ahead
